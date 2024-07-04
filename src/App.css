@@ -1,0 +1,60 @@
+/*-----RESET-----*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #4543df;
+    text-decoration: none;
+}
+
+i {
+    width: 60px;
+}
+
+input,
+button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 3px 9px;
+    border-radius: 3px;
+    transition: transform .25;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform .25;
+}

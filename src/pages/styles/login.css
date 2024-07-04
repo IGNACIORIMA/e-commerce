@@ -1,0 +1,17 @@
+.login {
+    padding-top: 125px;
+    padding-left: 25px;
+}
+
+.login button{
+    border: 2px solid ;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 125px;
+    padding-left: 25px;
+}

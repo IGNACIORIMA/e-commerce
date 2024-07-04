@@ -1,0 +1,34 @@
+.navbar {
+    padding: 0 20px;
+    position: fixed;
+    z-index: 10;
+    background-color: whitesmoke;
+    box-shadow: 2px black;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.navbar_title {
+    display: flex;
+    justify-content: space-between;
+    font-family: inherit;
+    font-weight: 600;
+    width: 100%;
+}
+
+.navbar_list {
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar_item {
+    font-size: x-large;
+}
+

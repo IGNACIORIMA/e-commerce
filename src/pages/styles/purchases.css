@@ -1,0 +1,12 @@
+.purchases {
+    padding-top: 120px;
+}
+
+.purchases_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
